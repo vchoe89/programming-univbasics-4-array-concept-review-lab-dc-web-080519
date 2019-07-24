@@ -12,8 +12,8 @@ def find_max_value(array)
   length = array.length
   max_num = array.index(0)
   length.times do |num|
-    if array.[num] > max_num
-      max_num = array.[num]
+    if array[num] > max_num
+      max_num = array[num]
     end
   end
   return max_num
