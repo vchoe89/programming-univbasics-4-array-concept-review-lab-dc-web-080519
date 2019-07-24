@@ -10,7 +10,7 @@ end
 
 def find_max_value(array)
   length = array.length
-  length.times do 
+  length.times do |num|
     array.max_by
   end
 end
