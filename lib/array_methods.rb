@@ -13,6 +13,7 @@ def find_max_value(array)
   length.times do
     array.max_by do |num|
       array.num
+      return num
   end
 end
 
